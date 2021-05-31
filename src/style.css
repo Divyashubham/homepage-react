@@ -1,0 +1,74 @@
+
+*{
+  margin: 0px;
+   box-sizing: border-box;
+   padding:0;
+}
+.App {
+  max-width: 960px;
+  margin: 0 auto;
+  font-size: 16px;
+}
+
+.list{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+}
+.section-title{
+ 
+    display: flex;
+    justify-content: space-between;
+}
+.buttonclass {
+    margin-right: 15px;
+    margin-bottom: 5px;
+}
+.container-box {
+    display: flex;
+}
+
+
+.flexclass{
+   display: flex;
+    justify-content: space-between;
+}
+.boxclass {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: 1px solid lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0px;
+    /* margin-left: 0px; */
+    margin-top:5px ;
+}
+
+
+.square {
+   width: 45px;
+    height: 45px;
+    list-style:none ;
+    margin-top:20px;
+    margin-left:20px ;
+
+   
+}
+
+
+.square p {
+    margin-right: 10px;
+   margin-left:0px; 
+   
+    margin-top: 30px;
+ 
+}
+
+.flexclass1 {
+    display: flex;
+    justify-content:center;
+}
